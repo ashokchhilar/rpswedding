@@ -1,14 +1,15 @@
 body html{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    padding-top: 70px;
     background-color: #510004;
 }
 
 .container {
+    margin:0px;
+    padding: 0px;
     position: relative;
     text-align: center;
     color: black;
@@ -48,4 +49,11 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.padding-0 {
+    padding-right: 1px;
+    padding-left: 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

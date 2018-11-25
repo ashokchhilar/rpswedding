@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace RpsWedding.Pages
 {
-    public class AboutModel : PageModel
+    public class InvitationModel : PageModel
     {
         public string Message { get; set; }
 

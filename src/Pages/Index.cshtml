@@ -1,5 +1,5 @@
 ﻿@page
-@model AboutModel
+@model IndexModel
 @{
     ViewData["Title"] = "Rupender Singh Wedding";
 }
@@ -8,25 +8,29 @@
 
 
 <div class="row" id="welcome">
-    <div class="container col-md-12">
-        <img src="~/images/welcome.jpg" width="100%" height="100%" />
+    <div class="col-xs-12 padding-0">
+        <img src="~/images/welcome.jpg" style="width:100%; height:100%" />
     </div>
 </div>
 
-<div class="row">
-    @*<div class="container col-sm-2 col-sm-offset-3"><h1>Venue</h1> <p>C-22/18 St. No. 9, Sadh Nagar, Palam  </p></div>
-        <div class="container col-sm-2 col-sm-offset-2"><h1>Venue</h1> <p>C-22/18 St. No. 9, Sadh Nagar, Palam </p></div>*@
+<div class="">
+    <div class=" row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="col-md-4 col-xs-4 padding-0" id="invitation">
+                <a href="/invitation">
+                    <img src="~/images/invitation.jpg" style="width:100%" />
+                </a>
+            </div>
+            <div class="col-md-4 col-xs-4 padding-0" id="contacts">
+                <a href="/contacts">
+                    <img src="~/images/contacts.jpg" style="width:100%" />
+                </a>
+            </div>
+            <div class="col-md-4 col-xs-4 padding-0" id="schedule">
+                <a href="schedule">
+                    <img src="~/images/schedule.jpg" style="width:100%" />
+                </a>
+            </div>
+        </div>
+    </div>
 </div>
-
-<div class=" row">
-    <div class="col-md-4" id="invitation">
-        <img src="~/images/invitation.jpg" width="100%" />
-    </div>
-    <div class="container col-md-4" id="schedule">
-        <img src="~/images/schedule.jpg" width="100%" />
-    </div>
-    <div class="col-md-4" id="contacts">
-        <img src="~/images/contacts.jpg" width="100%" />
-    </div>
-</div>
-
